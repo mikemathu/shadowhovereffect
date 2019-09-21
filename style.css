@@ -1,0 +1,44 @@
+/*Global*/
+.container{
+	margin:auto;
+	width:80%;
+	text-align:center;
+	transition:margin-left 0.5s;
+}
+
+/* Other */
+.web-features{
+	background:#fff;
+	padding: 50px 0;
+}
+
+.ft-container{
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns:repeat(auto-fit,minmax(200px,2fr));
+}
+
+.ft-box{
+	background:0 1px 5px rgba(104, 104, 104, 0.8);
+	box-shadow:0 5px 10px rgba(0,0,0,.2);
+	border:1px solid rgba(0,0,0,0.1);
+	text-align:center;
+	line-height: 1.3rem;
+	padding:50px;
+	transition:0.5s;
+}
+
+.ft-box:hover{
+	box-shadow: 0 5px 5px 0 #000;
+}
+
+.ft-box image{
+	padding-top:70px;
+	width:30px;
+	height:20px;
+}
+
+.ft-box h3{
+	color:orange;
+	padding:20px 0 10px 0;
+}
